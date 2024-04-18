@@ -1,0 +1,6 @@
+// This is fine. Should print "nil"
+var hello;
+print hello;
+
+// ERROR: cannot access an uninitialized variable
+print thisVariableDoesNotExist;

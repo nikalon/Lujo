@@ -1,0 +1,19 @@
+// Functions
+
+fun testNoArguments() {
+    var i = 100;
+
+    // Closures are supported
+    fun closure() { print i; }
+    return closure;
+}
+
+var i = 10;
+var a = testNoArguments();
+a();
+
+
+fun sumAll(a, b, c, d) {
+    return a + b + c + d;
+}
+print sumAll(10, 20, 30, 40);

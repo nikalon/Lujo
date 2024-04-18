@@ -1,0 +1,9 @@
+var name = "Pepe";
+var surname = "Fernandez";
+var fullName = name + " " + surname; // String concatenation with '+' operator
+print fullName;
+
+name = "Laura";
+surname = "Garcia";
+fullName = name + " " + surname;
+print fullName;

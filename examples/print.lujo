@@ -1,0 +1,12 @@
+// Basic print statement testing
+
+print "Hello, world!";
+var name = "Fernando";
+var surname = "Flores";
+print "Your name is " + name + " " + surname;
+
+var     operation       =       2*2+2-(10-20);
+print "The result is: ";
+print operation;
+
+print 2 + 3*10; // Should print 32
