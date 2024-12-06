@@ -1,9 +1,9 @@
-fun fib(n) {
+fun fibRecursive(n) {
   if (n < 2) return n;
-  return fib(n - 1) + fib(n - 2); 
+  return fibRecursive(n - 1) + fibRecursive(n - 2); 
 }
 
-fun fib2(n) {
+fun fibIterative(n) {
     var a = 0;
     var b = 1;
     var c;
@@ -19,6 +19,6 @@ fun fib2(n) {
     return b;
 }
 
-// Should print the same
-print fib(10);
-print fib2(10);
+// Should print 55 twice
+print fibRecursive(10);
+print fibIterative(10);

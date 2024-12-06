@@ -4,15 +4,20 @@ fun testNoArguments() {
     var i = 100;
 
     // Closures are supported
-    fun closure() { print i; }
+    fun closure() {
+        // TODO: Must print 100 because it should capture i in the parent block
+        print i;
+    }
     return closure;
 }
 
-var i = 10;
+var i = 5;
 var a = testNoArguments();
+// TODO: It should print 100, but instead we are reading i variable from this scope and it's incorrect. See first TODO.
 a();
 
 
+// Should print 100
 fun sumAll(a, b, c, d) {
     return a + b + c + d;
 }
