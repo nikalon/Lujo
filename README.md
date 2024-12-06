@@ -1,7 +1,7 @@
 # Lujo
 Interpreted programming language based on a subset of Lox.
 
-This language was implemented in Zig and is based on the book [Crafting Interpreters](https://craftinginterpreters.com/).
+This language was implemented in Zig and is based on the first half of [Crafting Interpreters](https://craftinginterpreters.com/) book.
 
 # Building
 To build this project do the following steps in order:
