@@ -1,9 +1,9 @@
 # Lujo
 Interpreted programming language based on a subset of Lox.
 
-This language was implemented in Zig and is based on the first half of [Crafting Interpreters](https://craftinginterpreters.com/) book.
+This language was implemented in Zig and is based on the book [Crafting Interpreters](https://craftinginterpreters.com/).
 
-## Building
+# Building
 To build this project do the following steps in order:
 
 1. Install [Zig compiler](https://ziglang.org/). This code was made specifically for version `0.11.0`, so it may not work in newer versions.
@@ -15,7 +15,7 @@ The executable will be generated in `zig-out/bin` directory.
 # Examples
 There are some examples of very small programs in Lujo contained in `examples/` directory.
 
-To execute a example use the following command, where *script* is the name of the file:
+To execute an example use the following command, where *script* is the name of the file:
 ```bash
 zig-out/bin/lujo script
 ```
